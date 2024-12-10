@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: aquamarine;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.balance .your-balance {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.transaction-heading {
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+.transactions { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.transaction-form {
+    margin-top: 20px;
+}
+
+
+.left {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    
+}
+
+
+.button-container {
+    margin-top: 20px;
+
+}
+
+.add-transaction {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.earnings {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.expenses {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+.product input {
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.amount input {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+
+.product input::placeholder{
+    font-size: 10px;
+}
+
+
+.amount input::placeholder{
+    font-size: 10px;
+}
+
+
+.transactionItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
